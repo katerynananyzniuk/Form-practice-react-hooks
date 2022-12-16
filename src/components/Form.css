@@ -1,0 +1,43 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 400px;
+}
+
+.container {
+  padding: 20px;
+  background-color:aliceblue;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.container:hover {
+  background-color:lightblue;
+}
+
+.form {
+  flex-direction: column;
+}
+
+.input {
+  margin: 10px;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 5px;
+  margin: 10px;
+}
+
+.output{
+  padding: 20px;
+  text-align: left;
+  transform: translateX(50px);
+}
+
+/* .output-item {
+  text-align: left;
+  transform: translateX(-50px);
+  transition: all 1s linear;
+} */
