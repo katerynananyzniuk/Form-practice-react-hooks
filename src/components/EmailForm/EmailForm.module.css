@@ -1,0 +1,60 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 400px;
+}
+
+.container {
+  padding: 20px;
+  background-color:aliceblue;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.container:hover {
+  background-color:lightblue;
+}
+
+.form {
+  flex-direction: column;
+}
+
+.input {
+  margin: 10px;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 5px;
+  margin: 10px;
+}
+
+.output{
+  padding: 20px;
+  text-align: left;
+}
+
+.emailOutput {
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 0px 4px 3px;
+  background-color: #fff;
+  margin: 4px;
+  display: inline-block;
+}
+
+.removeBtn {
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    width: 15px;
+    height: 15px;
+    font-size: 15px;
+    border-radius: 50%;
+    border:none;
+    background-color: brown;
+    color: #fff;
+    margin-left: 10px;
+    cursor: pointer;
+}

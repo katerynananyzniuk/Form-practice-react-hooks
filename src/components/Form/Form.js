@@ -63,7 +63,13 @@ function Form() {
         <form className='form' onSubmit={handleSubmit}>
           <div className='input'>
             <label htmlFor='username'>User name </label>
-            <input ref={inputRef} type='text' onChange={(e) => setInput(e.target.value)} value={input}/>
+            <input 
+              ref={inputRef} 
+              type='text' 
+              onChange={(e) => setInput(e.target.value)} 
+              value={input}
+              placeholder='username'
+            />
           </div>
           <div className='btns'>
             <button className='btn' onClick={handleSave}>Save</button>

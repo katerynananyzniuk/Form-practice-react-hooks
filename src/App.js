@@ -1,12 +1,13 @@
 import './App.css'
-import {Form} from "./components/Form";
+import {Form} from "./components/Form/Form";
+import {EmailForm} from "./components/EmailForm/EmailForm";
 
 function App() {
   return (
     <div className='main'>
       <div className='main-container'>
         <Form />
-        <Form />
+        <EmailForm />
       </div>
     </div>
   )
